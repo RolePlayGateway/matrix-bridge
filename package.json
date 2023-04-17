@@ -1,0 +1,35 @@
+{
+  "name": "rpg-matrix-bridge",
+  "version": "0.1.0",
+  "description": "simple RPG ⇔ Matrix bridge",
+  "main": "rpg.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RolePlayGateway/matrix-bridge.git"
+  },
+  "keywords": [
+    "rpg",
+    "matrix",
+    "fabric",
+    "bridge",
+    "service",
+    "chat"
+  ],
+  "author": "Eric Martindale",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RolePlayGateway/matrix-bridge/issues"
+  },
+  "homepage": "https://github.com/RolePlayGateway/matrix-bridge#readme",
+  "dependencies": {
+    "@fabric/core": "FabricLabs/fabric#peering-develop-async",
+    "matrix-appservice": "^0.4.1",
+    "matrix-appservice-bridge": "^3.0.0"
+  },
+  "devDependencies": {
+    "debug-trace": "^2.2.3"
+  }
+}
